@@ -57,5 +57,5 @@ python main.py
 - python-dotenv
 - groq
 
-`pip install discord python-dotenv groq`
+```pip install discord python-dotenv groq```
 
