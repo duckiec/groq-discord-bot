@@ -52,11 +52,6 @@ python main.py
 
 ## Requirements/Libraries
 
-- Python 3.8+
 - discord.py
 - python-dotenv
 - groq
-```
-pip install discord python-dotenv groq
-```
-
