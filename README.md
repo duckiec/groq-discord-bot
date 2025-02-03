@@ -44,8 +44,7 @@ python main.py
 - Maximum conversation history: 10 messages
 - Response length limit: 1999 characters (Discord limit)
 
-## Technical Details
-
+## Details
 - Uses Groq's llama-3.3-70b-versatile model
 - Implements request queuing and thread pooling
 - Includes response caching (5-minute cache lifetime)
@@ -58,6 +57,3 @@ python main.py
 - python-dotenv
 - groq
 
-## License
-
-MIT License
