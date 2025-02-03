@@ -50,10 +50,12 @@ python main.py
 - Includes response caching (5-minute cache lifetime)
 - Automatically cleans up inactive conversations
 
-## Requirements
+## Requirements/Libraries
 
 - Python 3.8+
 - discord.py
 - python-dotenv
 - groq
+
+`pip install discord python-dotenv groq`
 
