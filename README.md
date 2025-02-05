@@ -1,3 +1,5 @@
+**wrote readme using ai cuz i hate documenting**
+
 # Groq Discord Bot
 
 A Discord bot that uses Groq's LLM API to provide AI chat capabilities in Discord servers.
