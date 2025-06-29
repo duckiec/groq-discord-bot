@@ -1,4 +1,4 @@
-Groq Discord Bot
+**Groq Discord Bot**
 
 AI chatbot for Discord using Groq API.
 Features
