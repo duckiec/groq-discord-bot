@@ -1,59 +1,51 @@
-**wrote readme using ai cuz i hate documenting**
+Groq Discord Bot
 
-# Groq Discord Bot
+AI chatbot for Discord using Groq API.
+Features
 
-A Discord bot that uses Groq's LLM API to provide AI chat capabilities in Discord servers.
+    remembers convo
 
-## Features
+    set system prompt
 
-- AI chat with conversation memory
-- Per-server system message configuration
-- Configurable conversation timeouts
-- Command-based interface
-- Conversation statistics
-- Response caching for efficiency
+    timeout config
 
-## Setup
+    basic stats
 
-1. Clone this repository
-2. Install dependencies:
-```bash
+    response cache
+
+Setup
+
 pip install discord.py python-dotenv groq
-```
 
-3. Create a `.env` file with your credentials:
-```bash
-DISCORDKEY=your_discord_bot_token
-GROQ=your_groq_api_key
-```
+make a .env:
 
-4. Run the bot:
-```bash
+DISCORDKEY=your_discord_token
+GROQ=your_groq_key
+
+run with:
+
 python main.py
-```
 
-## Commands
+Commands
 
-- `/ask [prompt]` - Ask the AI something
-- `/status` - View your conversation stats
-- `/system [message]` - Set AI system message (admin only)
-- `/timeout [seconds]` - Set conversation timeout (admin only)
-- `/help` - Show available commands
+    /ask – ask stuff
 
-## Configuration
+    /status – see usage
 
-- Default conversation timeout: 60 seconds
-- Maximum conversation history: 10 messages
-- Response length limit: 1999 characters (Discord limit)
+    /system – set system prompt (admin)
 
-## Details
-- Uses Groq's llama-3.3-70b-versatile model
-- Implements request queuing and thread pooling
-- Includes response caching (5-minute cache lifetime)
-- Automatically cleans up inactive conversations
+    /timeout – set convo timeout (admin)
 
-## Requirements/Libraries
+    /help – help
 
-- discord.py
-- python-dotenv
-- groq
+Notes
+
+    llama3-70b via Groq
+
+    10-message memory
+
+    60s default timeout
+
+    5-min reply cache
+
+    1999 char limit (Discord)
